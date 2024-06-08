@@ -48,15 +48,14 @@
 }
 
 .hover {
-  background-color: rgb(240, 237, 250);
+  background-color: rgb(235, 232, 245);
 }
 
 .reportTable {
   font-family: arial;
   border-collapse: collapse;
   border-spacing: 1px;
-  table-layout: auto;
-  width: 100%;
+  table-layout: fixed;
 }
 
 th.headerCell {
