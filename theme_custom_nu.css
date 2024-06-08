@@ -130,6 +130,7 @@ th.headerCell {
 
 .total {
   border-top: 3px double #000000;
+
   font-weight: bold !important;
   background-color: rgb(217,210,233);
   color: #000000;
