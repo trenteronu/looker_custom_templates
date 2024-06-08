@@ -19,7 +19,7 @@
 }
 
 #tooltip.hidden {
-    display: none;
+    display: block;
 
     /* Add customization here  */
 }
