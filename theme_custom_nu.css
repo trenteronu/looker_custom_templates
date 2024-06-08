@@ -124,13 +124,14 @@ th.headerCell {
   font-style: italic;
   font-weight: bold !important;
   background-color: rgb(217,210,233);
+  color: #000000;
 }
 
 .total {
-  border-top: 2px solid #000000;
+  border-top: 3px double #000000; /* Adjust the width to 3px for a clear double line */
   font-weight: bold !important;
-  color: #ffffff;
   background-color: rgb(217,210,233);
+  color: #000000;
 }
 
 .total.transposed {
