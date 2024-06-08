@@ -58,7 +58,7 @@
 }
 
 th.headerCell {
-  border-bottom: 1px solid #ffffff !important;
+  border-bottom: 1px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
   background-color: rgb(130,10,209);
