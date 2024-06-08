@@ -88,8 +88,7 @@ th.headerCell {
 
 .rowCell {
   vertical-align: super;
-/*  padding-left: 5px;*/
-  padding: 5px;
+  padding-left: 5px;
 }
 
 .rowCell.merged {
