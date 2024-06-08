@@ -20,7 +20,7 @@
 }
 
 #tooltip.hidden {
-    display: block;
+    display: none;
 
     /* Add customization here  */
 }
