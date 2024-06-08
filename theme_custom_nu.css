@@ -54,16 +54,15 @@
 .reportTable {
   font-family: arial;
   border-collapse: collapse;
-  border-spacing: 1px;
   table-layout: fixed;
 }
 
 th.headerCell {
-  border-bottom: 1px solid #000000 !important;
+  border-bottom: 2px solid #000000 !important;
   font-weight: bold;
   padding: 5px;
-  color: #ffffff;
   background-color: rgb(130,10,209);
+  color: #ffffff;
   text-align: center;
 }
 
@@ -76,7 +75,7 @@ th.headerCell {
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
   color: #ffffff;
-    background-color: rgb(130,10,209);
+  background-color: rgb(130,10,209);
 }
 
 .indexCell.transposed {
@@ -132,6 +131,7 @@ th.headerCell {
   font-weight: bold !important;
   background-color: rgb(217,210,233);
   color: #000000;
+  text-decoration: underline;
 }
 
 .total.transposed {
