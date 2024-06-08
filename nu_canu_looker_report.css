@@ -1,5 +1,5 @@
 #tooltip {
-    position: fixed;
+    position: static;
     width: auto;
     height: auto;
     padding: 5px;
