@@ -1,5 +1,6 @@
 #tooltip {
     position: sticky;
+    top: 40px;
     width: auto;
     height: auto;
     padding: 5px;
