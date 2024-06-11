@@ -70,14 +70,6 @@ th.headerCell {
   text-align: center;
 }
 
-th.headerCell:nth-child(6),
-th.headerCell:nth-child(7),
-th.headerCell:nth-child(10),
-th.headerCell:nth-child(11),
-{
-  color: rgb(130,10,209);
-}
-
 .headerCell.merged {
   text-align: center !important;
   color: #ffffff;
