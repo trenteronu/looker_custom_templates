@@ -40,6 +40,10 @@
   background-color: rgb(235, 232, 245);
 }
 
+.reportTable tr:nth-child(6) th:nth-child(2){
+  color: #820ad1;
+}
+
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
   padding: 3px;
