@@ -45,7 +45,7 @@ table.reportTable thead tr:nth-child(2) th:nth-child(7),
 table.reportTable thead tr:nth-child(2) th:nth-child(10),
 table.reportTable thead tr:nth-child(2) th:nth-child(11)
 {
-  color: #820ad1;
+  color: transparent;
 }
 
 th.headerCell {
