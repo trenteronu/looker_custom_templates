@@ -40,10 +40,22 @@
   background-color: rgb(235, 232, 245);
 }
 
-thead tr:nth-child(2) th:nth-child(6),
-thead tr:nth-child(2) th:nth-child(7),
-thead tr:nth-child(2) th:nth-child(10),
-thead tr:nth-child(2) th:nth-child(11),
+thead.reportTable tr:nth-child(2) th:nth-child(6)
+{
+  color: #820ad1;
+}
+
+thead.reportTable tr:nth-child(2) th:nth-child(7)
+{
+  color: #820ad1;
+}
+
+thead.reportTable tr:nth-child(2) th:nth-child(10)
+{
+  color: #820ad1;
+}
+
+thead.reportTable tr:nth-child(2) th:nth-child(11)
 {
   color: #820ad1;
 }
