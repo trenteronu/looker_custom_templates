@@ -8,11 +8,6 @@
   src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2')
     format('woff2');
 }
-@font-face {
-  font-family: 'Gellix Regular';
-  src: url('./fonts/Gellix-Regular.otf')
-    format('otf');
-}
 
 #tooltip {
   position: absolute;
@@ -54,28 +49,22 @@
 .reportTable {
   font-family: arial;
   border-collapse: collapse;
-  table-layout: fixed;
 }
 
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
-  font-weight: bold;
   padding: 5px;
+  text-align: center;
   background-color: rgb(130,10,209);
   color: #ffffff;
-  text-align: center;
 }
 
 .headerCell.merged {
   text-align: center !important;
-  color: #ffffff;
-  background-color: rgb(130,10,209);
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  color: #ffffff;
-  background-color: rgb(130,10,209);
 }
 
 .indexCell.transposed {
