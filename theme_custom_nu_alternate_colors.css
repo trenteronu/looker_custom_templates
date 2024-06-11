@@ -60,6 +60,7 @@
 .reportTable tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
 }
+
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
   font-weight: bold;
@@ -67,6 +68,14 @@ th.headerCell {
   background-color: rgb(130,10,209);
   color: #ffffff;
   text-align: center;
+}
+
+th.headerCell:nth-child(6),
+th.headerCell:nth-child(7),
+th.headerCell:nth-child(10),
+th.headerCell:nth-child(11),
+{
+  color: rgb(130,10,209);
 }
 
 .headerCell.merged {
