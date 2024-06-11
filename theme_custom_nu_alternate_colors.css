@@ -56,17 +56,14 @@ th.headerCell {
   color: #ffffff;
 }
 
-.headerCell {
-  position: sticky;
-  z-index: 10;
-}
-
-.headerCell:nth-of-type(1) {
+thead tr:nth-of-type(1) {
+  position: sticky
   top: 0;
 }
 
-.headerCell:nth-of-type(1) {
-  top: 40px;
+thead tr:nth-of-type(1) {
+  position: sticky
+  top: 18px;
 }
 
 .indexCell.transposed {
