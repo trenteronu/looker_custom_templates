@@ -36,7 +36,7 @@
   border-collapse: collapse;
 }
 
-.reportTable tr:nth-child(even) {
+tbody.reportTable tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
 }
 
