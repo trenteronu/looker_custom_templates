@@ -57,6 +57,9 @@
   table-layout: fixed;
 }
 
+.reportTable tr:nth-child(even) {
+  background-color: rgb(235, 232, 245);
+}
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
   font-weight: bold;
@@ -95,10 +98,6 @@ th.headerCell {
   padding-left: 5px;
   padding-top: 2px;
   padding-bottom: 2px;
-}
-
-.td.rowCell:nth-child(even) {
-  background-color: rgb(235, 232, 245);
 }
 
 .rowCell.merged {
