@@ -28,7 +28,7 @@
 }
 
 .tooltipTable {
-  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  font-family: sans-serif;
   border: 0px;
   border-collapse: collapse;
   table-layout: auto;
@@ -47,7 +47,7 @@
 }
 
 .reportTable {
-  font-family: arial;
+  font-family: sans-serif;
   border-collapse: collapse;
 }
 
