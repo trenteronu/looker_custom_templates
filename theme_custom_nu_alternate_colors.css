@@ -78,6 +78,10 @@ th.headerCell {
   background-color: rgb(130,10,209);
 }
 
+.indexCell {
+  background-color: #ffffff;
+}
+
 .indexCell.transposed {
   font-weight: bold;
 }
