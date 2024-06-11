@@ -36,12 +36,30 @@
   border-collapse: collapse;
 }
 
+table.reportTable thead tr:nth-child(2) th:nth-child(6),
+table.reportTable thead tr:nth-child(2) th:nth-child(7),
+table.reportTable thead tr:nth-child(2) th:nth-child(10),
+table.reportTable thead tr:nth-child(2) th:nth-child(11)
+{
+  color: transparent;
+}
+
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
   padding: 3px;
   text-align: center;
   background-color: #820ad1;
   color: #ffffff;
+}
+
+thead tr:nth-of-type(1) {
+  position: sticky;
+  top: 0;
+}
+
+thead tr:nth-of-type(2) {
+  position: sticky;
+  top: 18px;
 }
 
 .indexCell.transposed {
