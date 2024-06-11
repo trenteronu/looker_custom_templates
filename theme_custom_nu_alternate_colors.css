@@ -36,26 +36,14 @@
   border-collapse: collapse;
 }
 
-tbody.reportTable tr:nth-child(even) {
+.reportTable tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
 }
 
-thead.reportTable tr:nth-child(2) th:nth-child(6)
-{
-  color: #820ad1;
-}
-
-thead.reportTable tr:nth-child(2) th:nth-child(7)
-{
-  color: #820ad1;
-}
-
-thead.reportTable tr:nth-child(2) th:nth-child(10)
-{
-  color: #820ad1;
-}
-
-thead.reportTable tr:nth-child(2) th:nth-child(11)
+table.reportTable thead tr:nth-child(2) th:nth-child(6),
+table.reportTable thead tr:nth-child(2) th:nth-child(7),
+table.reportTable thead tr:nth-child(2) th:nth-child(10),
+table.reportTable thead tr:nth-child(2) th:nth-child(11)
 {
   color: #820ad1;
 }
