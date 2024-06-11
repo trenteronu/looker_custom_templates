@@ -47,7 +47,7 @@
 }
 
 .reportTable {
-  font-family: arial;
+  font-family: sans-serif;
   border-collapse: collapse;
 }
 
@@ -85,7 +85,7 @@ th.headerCell {
 
 .rowCell {
   vertical-align: super;
-  padding: 5px;
+  padding: 3px;
 }
 
 .rowCell.merged {
