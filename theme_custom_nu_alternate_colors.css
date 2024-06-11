@@ -56,6 +56,19 @@ th.headerCell {
   color: #ffffff;
 }
 
+.headerCell {
+  position: sticky;
+  z-index: 10;
+}
+
+.headerCell:nth-of-type(1) {
+  top: 0;
+}
+
+.headerCell:nth-of-type(1) {
+  top: 40px;
+}
+
 .indexCell.transposed {
   font-weight: bold;
 }
