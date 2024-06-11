@@ -65,14 +65,10 @@ th.headerCell {
 
 .headerCell.merged {
   text-align: center !important;
-  color: #ffffff;
-  background-color: rgb(130,10,209);
 }
 
 .headerCell.transposed.dimension.merged {
   text-align: center !important;
-  color: #ffffff;
-  background-color: rgb(130,10,209);
 }
 
 .indexCell {
