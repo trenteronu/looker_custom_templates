@@ -1,0 +1,162 @@
+@font-face {
+  font-family: 'Noto Sans TC';
+  src: url('./fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Noto Sans SC';
+  src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2')
+    format('woff2');
+}
+@font-face {
+  font-family: 'Gellix Regular';
+  src: url('./fonts/Gellix-Regular.otf')
+    format('otf');
+}
+
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  font-family: arial;
+  font-size: 12px;
+  z-index: 2;
+}
+
+.tooltipTable {
+  font-family: Open Sans, Helvetica, Arial, sans-serif;
+  border: 0px;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.focus {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.hover {
+  background-color: rgb(235, 232, 245);
+}
+
+.reportTable {
+  font-family: arial;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+th.headerCell {
+  border-bottom: 1px solid #820ad1 !important;
+  font-weight: bold;
+  padding: 5px;
+  background-color: rgb(130,10,209);
+  color: #ffffff;
+  text-align: center;
+}
+
+.headerCell.merged {
+  text-align: center !important;
+  color: #ffffff;
+  background-color: rgb(130,10,209);
+}
+
+.headerCell.transposed.dimension.merged {
+  text-align: center !important;
+  color: #ffffff;
+  background-color: rgb(130,10,209);
+}
+
+.indexCell.transposed {
+  font-weight: bold;
+}
+
+.indexCell.transposed.merged {
+  background-color: #ffffff !important;
+}
+
+.rowCell {
+  vertical-align: super;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.rowCell:nth-child(even) {
+  background-color: rgb(235, 232, 245);
+}
+
+.rowCell.merged {
+  background-color: #ffffff !important;
+}
+
+.rowCell.transposed.dimension.merged {
+  background-color: #ffffff !important;
+}
+
+.nonNumeric {
+  text-align: left;
+}
+
+.numeric {
+  text-align: right;
+}
+
+.negative {
+  color: red;
+}
+
+.estimate {
+  color: darkgray !important;
+}
+
+.singleIndex {
+  padding-left: 15px !important;
+}
+
+.subtotal {
+  font-style: italic;
+  font-weight: bold !important;
+  background-color: rgb(217,210,233);
+  color: #000000;
+}
+
+.total {
+  border-top: 3px double #000000;
+  font-weight: bold !important;
+  background-color: rgb(217,210,233);
+  color: #000000;
+}
+
+.total.transposed {
+  border-top: 0px !important;
+}
+
+.dimension.transposed {
+  font-weight: bold;
+}
+
+.rectElem.animated {
+  font-family: arial;
+  padding: 4px;
+}
+
+.headerCell.animated {
+  border-bottom: 4px solid #ffffff;
+  box-shadow: inset 0px -1px 0px 0px #000000 !important;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(69, 23, 116);
+}
