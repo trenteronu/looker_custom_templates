@@ -1,35 +1,20 @@
-@font-face {
-  font-family: 'Noto Sans TC';
-  src: url('./fonts/noto-sans-tc-v10-latin_chinese-traditional-regular.woff2')
-    format('woff2');
-}
-@font-face {
-  font-family: 'Noto Sans SC';
-  src: url('./fonts/noto-sans-sc-v11-latin_chinese-simplified-regular.woff2')
-    format('woff2');
-}
-
 #tooltip {
   position: absolute;
   width: auto;
   height: auto;
   padding: 5px;
   background-color: white;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
-  -webkit-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
-  -moz-box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
   pointer-events: none;
-  font-family: arial;
+  font-family: Arial, sans-serif;
   font-size: 12px;
   z-index: 2;
 }
 
 .tooltipTable {
   font-family: sans-serif;
-  border: 0px;
+  border: 0;
   border-collapse: collapse;
   table-layout: auto;
 }
@@ -43,7 +28,7 @@
 }
 
 .hover {
-  color: rgb(130,10,209);
+  color: #820ad1;
 }
 
 .reportTable {
@@ -53,18 +38,10 @@
 
 th.headerCell {
   border-bottom: 1px solid #820ad1 !important;
-  padding: 5px;
+  padding: 3px;
   text-align: center;
-  background-color: rgb(130,10,209);
+  background-color: #820ad1;
   color: #ffffff;
-}
-
-.headerCell.merged {
-  text-align: center !important;
-}
-
-.headerCell.transposed.dimension.merged {
-  text-align: center !important;
 }
 
 .indexCell.transposed {
@@ -76,18 +53,8 @@ th.headerCell {
 }
 
 .rowCell {
-  vertical-align: super;
-  padding-left: 5px;
-  padding-top: 2px;
-  padding-bottom: 2px;
-}
-
-.rowCell.merged {
-  background-color: #ffffff !important;
-}
-
-.rowCell.transposed.dimension.merged {
-  background-color: #ffffff !important;
+  vertical-align: middle;
+  padding: 3px;
 }
 
 .nonNumeric {
@@ -102,6 +69,22 @@ th.headerCell {
   color: red;
 }
 
+th.headerCell.merged {
+  text-align: center !important;
+}
+
+th.headerCell.transposed.dimension.merged {
+  text-align: center !important;
+}
+
+.rowCell.merged {
+  background-color: #ffffff !important;
+}
+
+.rowCell.transposed.dimension.merged {
+  background-color: #ffffff !important;
+}
+
 .estimate {
   color: darkgray !important;
 }
@@ -113,19 +96,19 @@ th.headerCell {
 .subtotal {
   font-style: italic;
   font-weight: bold !important;
-  background-color: rgb(217,210,233);
+  background-color: rgb(217, 210, 233);
   color: #000000;
 }
 
 .total {
   border-top: 3px double #000000;
   font-weight: bold !important;
-  background-color: rgb(217,210,233);
+  background-color: rgb(217, 210, 233);
   color: #000000;
 }
 
 .total.transposed {
-  border-top: 0px !important;
+  border-top: 0 !important;
 }
 
 .dimension.transposed {
@@ -133,8 +116,8 @@ th.headerCell {
 }
 
 .rectElem.animated {
-  font-family: arial;
-  padding: 4px;
+  font-family: sans-serif;
+  padding: 3px;
 }
 
 .headerCell.animated {
