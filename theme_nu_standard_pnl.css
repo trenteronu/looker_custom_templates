@@ -40,18 +40,18 @@
     background-color: rgb(235, 232, 245);
 }
 
-thead tr:nth-of-type(1) {
+thead tr:nth-of-type(1) th {
     border-bottom: 1px solid #000000;
     background-color: #ffffff;
     position: sticky;
     top: 0;
 }
 
-thead tr:nth-of-type(2) {
+thead tr:nth-of-type(1) th {
     border-bottom: 1px solid #000000;
     background-color: #ffffff;
     position: sticky;
-    top: 18px;
+    top: 21px;
 }
 
 th.headerCell {
