@@ -41,18 +41,21 @@
 }
 
 thead tr:nth-of-type(1) {
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
     position: sticky;
     top: 0;
 }
 
 thead tr:nth-of-type(2) {
+    border-bottom: 1px solid #000000;
+    background-color: #ffffff;
     position: sticky;
     top: 18px;
 }
 
 th.headerCell {
     text-align: center !important;
-    border-bottom: 1px solid #000000;
     padding: 3px;
 }
 
