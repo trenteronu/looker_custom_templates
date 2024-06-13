@@ -90,6 +90,7 @@ th.headerCell.merged {
 }
 
 .subtotal {
+    padding-bottom: 18px;
 }
 
 .total {
