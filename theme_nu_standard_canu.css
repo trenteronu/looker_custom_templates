@@ -31,6 +31,10 @@
     color: #820ad1;
 }
 
+tr.hover td.negative {
+    color: #820ad1;
+}
+
 .reportTable {
     font-family: arial, sans-serif;
     border-collapse: separate;
