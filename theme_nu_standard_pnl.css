@@ -77,7 +77,7 @@ th.headerCell.merged {
     text-align: right;
 }
 
-.tr:not(.hover) td.negative {
+.negative {
     color: red;
 }
 
