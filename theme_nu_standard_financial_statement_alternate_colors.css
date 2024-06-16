@@ -108,3 +108,16 @@ th.headerCell.merged {
 tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
+
+tbody tr:nth-child(3) td:nth-child(1),
+tbody tr:nth-child(4) td:nth-child(1),
+tbody tr:nth-child(5) td:nth-child(1),
+tbody tr:nth-child(7) td:nth-child(1),
+tbody tr:nth-child(9) td:nth-child(1),
+tbody tr:nth-child(10) td:nth-child(1),
+tbody tr:nth-child(11) td:nth-child(1),
+tbody tr:nth-child(12) td:nth-child(1),
+tbody tr:nth-child(13) td:nth-child(1),
+tbody tr:nth-child(14) td:nth-child(1) (
+  padding-left: 25px;
+)
