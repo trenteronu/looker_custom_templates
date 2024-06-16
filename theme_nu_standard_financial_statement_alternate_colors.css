@@ -1,0 +1,158 @@
+#tooltip {
+  position: absolute;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  background-color: white;
+  border-radius: 4px;
+  box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+  pointer-events: none;
+  font-family: Arial, sans-serif;
+  font-size: 12px;
+  z-index: 2;
+}
+
+.tooltipTable {
+  font-family: sans-serif;
+  border: 0;
+  border-collapse: collapse;
+  table-layout: auto;
+}
+
+.focus {
+  font-weight: bold;
+}
+
+.hidden {
+  display: none;
+}
+
+.hover {
+  color: #820ad1;
+}
+
+.reportTable {
+  font-family: sans-serif;
+  border-collapse: collapse;
+}
+
+.reportTable tr:nth-child(even) {
+  background-color: rgb(235, 232, 245);
+}
+
+table.reportTable thead tr:nth-child(2) th:nth-child(6),
+table.reportTable thead tr:nth-child(2) th:nth-child(7),
+table.reportTable thead tr:nth-child(2) th:nth-child(10),
+table.reportTable thead tr:nth-child(2) th:nth-child(11)
+{
+  color: transparent;
+}
+
+th.headerCell {
+  border-bottom: 1px solid #820ad1 !important;
+  padding-top: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+  text-align: center;
+  background-color: #820ad1;
+  color: #ffffff;
+}
+
+thead tr:nth-of-type(1) {
+  position: sticky;
+  top: 0;
+}
+
+thead tr:nth-of-type(2) {
+  position: sticky;
+  top: 18px;
+}
+
+.indexCell.transposed {
+  font-weight: bold;
+}
+
+.indexCell.transposed.merged {
+  background-color: #ffffff !important;
+}
+
+.rowCell {
+  vertical-align: middle;
+  padding-top: 5px;
+  padding-left: 3px;
+  padding-right: 3px;
+  padding-bottom: 3px;
+}
+
+.nonNumeric {
+  text-align: left;
+}
+
+.numeric {
+  text-align: right;
+}
+
+.negative {
+  color: red;
+}
+
+th.headerCell.merged {
+  text-align: center !important;
+}
+
+th.headerCell.transposed.dimension.merged {
+  text-align: center !important;
+}
+
+.rowCell.merged {
+  background-color: #ffffff !important;
+}
+
+.rowCell.transposed.dimension.merged {
+  background-color: #ffffff !important;
+}
+
+.estimate {
+  color: darkgray !important;
+}
+
+.singleIndex {
+  padding-left: 15px !important;
+}
+
+.subtotal {
+  font-style: italic;
+  font-weight: bold !important;
+  background-color: rgb(217, 210, 233);
+  color: #000000;
+}
+
+.total {
+  border-top: 3px double #000000;
+  font-weight: bold !important;
+  background-color: rgb(217, 210, 233);
+  color: #000000;
+}
+
+.total.transposed {
+  border-top: 0 !important;
+}
+
+.dimension.transposed {
+  font-weight: bold;
+}
+
+.rectElem.animated {
+  font-family: sans-serif;
+  padding: 3px;
+}
+
+.headerCell.animated {
+  border-bottom: 4px solid #ffffff;
+  box-shadow: inset 0px -1px 0px 0px #000000 !important;
+  font-weight: bold;
+  padding: 5px;
+  box-sizing: border-box;
+  color: rgb(69, 23, 116);
+}
