@@ -109,6 +109,15 @@ tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
 
+/* Bold to Total Assets, Total Liabilities, Total Equity and Total Liabilities and Equity rows*/
+
+tbody tr:nth-child(25),
+tbody tr:nth-child(45),
+tbody tr:nth-child(52),
+tbody tr:nth-child(53) {
+  font-weight: bold;
+}
+
 /* Padding Financial assets at fair value through profit or loss */
 
 tbody tr:nth-child(3) td:nth-child(1),
