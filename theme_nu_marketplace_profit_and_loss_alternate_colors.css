@@ -95,8 +95,7 @@ tbody td.total:not(.subtotal) {
 /* Paddding of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
 
 tbody tr:nth-child(13) td,
-tbody tr:nth-child(15) td,
-tbody tr:nth-child(18) td {
+tbody tr:nth-child(15) td {
   padding-top: 20px;
 }
 
