@@ -44,7 +44,7 @@ tr.hover td.negative {
 thead tr:nth-child(3) th:nth-child(4),
 thead tr:nth-child(3) th:nth-child(5)
 {
-  color: transparent; !important
+  color: transparent !important;
 }
 
 .reportTable tbody tr:nth-child(even) {
@@ -55,7 +55,7 @@ thead tr:nth-of-type(1) th {
   border-bottom: 1px solid #ffffff;
   background-color: #ffffff;
   color: #451774ff;
-  font-size: 18px; !important
+  font-size: 18px !important;
   position: sticky;
   top: 0;
 }
