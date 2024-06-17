@@ -1,0 +1,106 @@
+.hidden {
+  display: none;
+}
+
+.hover {
+  color: #820ad1;
+}
+
+tr.hover td.negative {
+  color: #820ad1;
+}
+
+.reportTable {
+  font-family: arial, sans-serif;
+  border-collapse: separate;
+  border-spacing: 0px;
+}
+
+thead tr:nth-child(3) th:nth-child(4),
+thead tr:nth-child(3) th:nth-child(5)
+{
+  color: transparent !important;
+}
+
+.reportTable tbody tr:nth-child(even) {
+  background-color: rgb(235, 232, 245);
+}
+
+thead tr:nth-of-type(1) th {
+  border-bottom: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #451774ff;
+  font-size: 18px !important;
+  position: sticky;
+  top: 0;
+}
+
+thead tr:nth-of-type(2) th {
+  border-bottom: 1px solid #ffffff;
+  background-color: #ffffff;
+  color: #451774ff;
+  position: sticky;
+  top: 20px;
+}
+
+thead tr:nth-of-type(3) th {
+  border-bottom: 1px solid #451774ff;
+  background-color: #ffffff;
+  color: #451774ff;
+  position: sticky;
+  top: 40px;
+}
+
+th.headerCell {
+  text-align: center;
+  padding: 3px;
+}
+
+th.headerCell.merged {
+  text-align: center;
+}
+
+.rowCell {
+  vertical-align: middle;
+  padding: 3px;
+}
+
+.nonNumeric {
+  text-align: left;
+}
+
+.numeric {
+  text-align: right;
+}
+
+.negative {
+  color: red;
+}
+
+.rowCell.merged {
+  background-color: #ffffff;
+}
+
+tbody td.total.subtotal {
+  font-weight: bold;
+  border-top: 1px solid #000000;
+}
+
+tbody td.total:not(.subtotal) {
+  font-weight: bold;
+}
+
+/* Paddding of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
+
+tbody tr:nth-child(13) td,
+tbody tr:nth-child(15) td,
+tbody tr:nth-child(21) td {
+  padding-top: 20px;
+}
+
+tbody tr:nth-child(3) td,
+tbody tr:nth-child(7) td,
+tbody tr:nth-child(9) td,
+tbody tr:nth-child(17) td {
+  padding-bottom: 20px;
+}
