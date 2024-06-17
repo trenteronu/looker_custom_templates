@@ -57,7 +57,6 @@ thead tr:nth-of-type(1) th {
     border-bottom: 1px solid #ffffff;
     background-color: #ffffff;
     color: #451774ff;
-    font-size: 18px !important;
     position: sticky;
     top: 0;
 }
