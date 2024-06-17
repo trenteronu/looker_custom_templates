@@ -41,10 +41,15 @@ tr.hover td.negative {
   border-spacing: 0px;
 }
 
-thead tr:nth-child(2) th:nth-child(4),
+/*thead tr:nth-child(2) th:nth-child(4),
 thead tr:nth-child(2) th:nth-child(5)
 {
-  color: transparent;
+  color: transparent; !important
+}*/
+
+thead tr:nth-child(1) th:nth-child(1)
+{
+  font-size: 24px;
 }
 
 .reportTable tbody tr:nth-child(even) {
@@ -52,15 +57,16 @@ thead tr:nth-child(2) th:nth-child(5)
 }
 
 thead tr:nth-of-type(1) th {
-  border-bottom: 1px solid #000000;
-  background-color: #ffffff;
+  background-color: #451774ff;
+  color: #451774ff;
   position: sticky;
   top: 0;
 }
 
 thead tr:nth-of-type(2) th {
   border-bottom: 1px solid #000000;
-  background-color: #ffffff;
+  background-color: #451774ff;
+  color: #451774ff;
   position: sticky;
   top: 21px;
 }
