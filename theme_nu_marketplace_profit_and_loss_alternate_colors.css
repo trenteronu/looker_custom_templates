@@ -81,7 +81,9 @@ th.headerCell.merged {
   background-color: #ffffff;
 }
 
-.subtotal {
+tbody td.total.subtotal {
+  font-weight: bold;
+  border-top: 1px solid #000000;
 }
 
 tbody td.total:not(.subtotal) {
