@@ -54,17 +54,20 @@ thead tr:nth-child(2) th:nth-child(11)
 }
 
 thead tr:nth-of-type(1) th {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #ffffff;
     background-color: #ffffff;
+    color: #451774ff;
+    font-size: 18px !important;
     position: sticky;
     top: 0;
 }
 
 thead tr:nth-of-type(2) th {
-    border-bottom: 1px solid #000000;
+    border-bottom: 1px solid #451774ff;
     background-color: #ffffff;
+    color: #451774ff;
     position: sticky;
-    top: 21px;
+    top: 20px;
 }
 
 th.headerCell {
