@@ -41,15 +41,13 @@ tr.hover td.negative {
   border-spacing: 0px;
 }
 
-thead tr:nth-child(2) th:nth-child(6),
-thead tr:nth-child(2) th:nth-child(7),
-thead tr:nth-child(2) th:nth-child(10),
-thead tr:nth-child(2) th:nth-child(11)
+thead tr:nth-child(2) th:nth-child(4),
+thead tr:nth-child(2) th:nth-child(5)
 {
   color: transparent;
 }
 
-.reportTable tbody tr:nth-child(even) {
+tbody tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
 }
 
