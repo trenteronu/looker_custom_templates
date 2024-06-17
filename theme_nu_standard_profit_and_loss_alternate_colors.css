@@ -107,14 +107,17 @@ tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
 
-/* Paddding bottom of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
+/* Paddding of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
 
-tbody tr:nth-child(9),
-tbody tr:nth-child(15),
-tbody tr:nth-child(16),
-tbody tr:nth-child(19)
-td {
-  padding-top: 30px;
+tbody tr:nth-child(9) td,
+tbody tr:nth-child(15) td,
+tbody tr:nth-child(16) td,
+tbody tr:nth-child(19) td {
+  padding-top: 18px;
+}
+
+tbody tr:nth-child(15) td {
+  padding-bottom: 18px;
 }
 
 /* Bold to Total Assets, Total Liabilities, Total Equity and Total Liabilities and Equity rows*/
