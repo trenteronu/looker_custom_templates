@@ -118,11 +118,15 @@ tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
 
-/* Paddding bottom of Total Assets and Total Liabilities and Equity rows*/
+/* Paddding of Total Assets and Total Liabilities and Equity rows*/
 
 tbody tr:nth-child(25) td,
-tbody tr:nth-child(53) td {
+tbody tr:nth-child(45) td {
   padding-bottom: 30px;
+}
+
+tbody tr:nth-child(53) td {
+  padding-top: 30px;
 }
 
 /* Bold to Total Assets, Total Liabilities, Total Equity and Total Liabilities and Equity rows*/
