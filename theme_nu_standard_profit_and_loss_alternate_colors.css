@@ -123,11 +123,11 @@ tbody td.total:not(.subtotal) {
 tbody tr:nth-child(9) td,
 tbody tr:nth-child(15) td,
 tbody tr:nth-child(19) td {
-  padding-top: 18px;
+  padding-top: 20px;
 }
 
 tbody tr:nth-child(15) td {
-  padding-bottom: 18px;
+  padding-bottom: 20px;
 }
 
 /* Bold to Total Assets, Total Liabilities, Total Equity and Total Liabilities and Equity rows*/
