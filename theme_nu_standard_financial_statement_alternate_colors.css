@@ -41,11 +41,6 @@ tr.hover td.negative {
   border-spacing: 0px;
 }
 
-thead tr:nth-child(3) th:nth-child(4),
-thead tr:nth-child(3) th:nth-child(5)
-{
-  color: transparent; !important
-}
 
 .reportTable tbody tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
