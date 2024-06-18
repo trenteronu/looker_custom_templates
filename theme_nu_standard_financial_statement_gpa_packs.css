@@ -118,6 +118,16 @@ tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
 
+tbody tr th:nth-child(1),
+tbody tr th:nth-child(4),
+tbody tr th:nth-child(7),
+tbody tr th:nth-child(10),
+tbody tr th:nth-child(13),
+{
+  border-right: 1px solid #451774ff;
+}
+
+
 /* Paddding of Total Assets and Total Liabilities and Equity rows*/
 
 tbody tr:nth-child(25) td,
