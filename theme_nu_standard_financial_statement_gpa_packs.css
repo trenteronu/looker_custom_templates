@@ -118,11 +118,12 @@ tbody td.total:not(.subtotal) {
   border-bottom: 1px solid #000000;
 }
 
+tbody tr td:nth-child(2),
 tbody tr td:nth-child(5),
 tbody tr td:nth-child(8),
 tbody tr td:nth-child(11),
 tbody tr td:nth-child(14) {
-  border-left: 1px solid #451774ff;
+  border-left: 2px solid #ffffff;
 }
 
 
