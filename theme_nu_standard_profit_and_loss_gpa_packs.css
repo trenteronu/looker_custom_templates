@@ -124,6 +124,7 @@ tbody tr td:nth-child(14) {
 
 /* Paddding of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
 
+tbody tr:nth-child(1) td,
 tbody tr:nth-child(9) td,
 tbody tr:nth-child(15) td,
 tbody tr:nth-child(19) td {
