@@ -1,0 +1,114 @@
+#tooltip {
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    z-index: 2;
+}
+
+.tooltipTable {
+    font-family: arial, sans-serif;
+    border: 0;
+    border-collapse: collapse;
+    table-layout: auto;
+}
+thead tr th {
+    color: #451774ff;
+}
+
+.focus {
+    font-weight: bold;
+}
+
+.hidden {
+    display: none;
+}
+
+.hover {
+    color: #820ad1;
+}
+
+tr.hover td.negative {
+    color: #820ad1;
+}
+
+.reportTable {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+.reportTable tbody tr:nth-child(even) {
+    background-color: rgb(235, 232, 245);
+}
+
+thead tr:nth-of-type(1) td:nth-child(1) {
+    font-size: 18px !important;
+    max-width: 30px;
+    white-space: nowrap;
+    z-index:2;
+}
+
+thead tr:nth-of-type(1) th {
+    border-bottom: 1px solid #ffffff;
+    background-color: #ffffff;
+    color: #451774ff;
+    position: sticky;
+    top: 0;
+}
+
+thead tr:nth-of-type(2) th {
+    border-bottom: 1px solid #451774ff;
+    background-color: #ffffff;
+    color: #451774ff;
+    position: sticky;
+    top: 7px;
+}
+
+th.headerCell {
+    text-align: center;
+    padding: 3px;
+}
+
+th.headerCell.merged {
+    text-align: center;
+}
+
+.rowCell {
+    vertical-align: middle;
+    padding: 3px;
+}
+
+.nonNumeric {
+    text-align: left;
+}
+
+.numeric {
+    text-align: right;
+}
+
+.negative {
+    color: red;
+}
+
+.rowCell.merged {
+    background-color: #ffffff;
+}
+
+.subtotal {
+}
+
+.total {
+    border-top: 1px solid #000000;
+    font-weight: bold;
+}
+
+tbody td.total:not(.subtotal) {
+    border-bottom: 1px solid #000000;
+}
