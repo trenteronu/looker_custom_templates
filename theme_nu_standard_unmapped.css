@@ -48,7 +48,8 @@ tr.hover td.negative {
     background-color: rgb(235, 232, 245);
 }
 
-thead tr:nth-of-type(1) th:nth-child(4) {
+thead tr:nth-of-type(1) th:nth-child(7) {
+    text-align: right !important;
     max-width: 30px;
     white-space: nowrap;
     z-index:2;
