@@ -64,6 +64,13 @@ thead tr:nth-of-type(1) th {
     top: 0;
 }
 
+thead tr:nth-of-type(1) th:nth-child(4),
+thead tr:nth-of-type(1) th:nth-child(5),
+thead tr:nth-of-type(1) th:nth-child(6),
+thead tr:nth-of-type(1) th:nth-child(7) {
+    border-bottom: 1px solid #451774ff;
+}
+
 thead tr:nth-of-type(2) th {
     border-bottom: 1px solid #451774ff;
     background-color: #ffffff;
