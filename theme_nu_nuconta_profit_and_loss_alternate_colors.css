@@ -87,6 +87,7 @@ tbody td.total.subtotal {
 
 tbody td.total:not(.subtotal) {
   font-weight: bold;
+  background-color: #ffffff;
 }
 
 tbody tr:nth-child(1) td,
