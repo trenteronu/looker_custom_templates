@@ -108,3 +108,8 @@ thead tr:nth-of-type(1) th:nth-child(1) {
   white-space: nowrap;
   z-index:2;
 }
+
+.total {
+  font-weight: bold;
+  background-color: #ffffff !important;
+}
