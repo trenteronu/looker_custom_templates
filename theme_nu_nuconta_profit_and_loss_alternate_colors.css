@@ -100,7 +100,7 @@ tbody tr:nth-child(odd):has(.subtotal) td {
 
 thead tr:nth-of-type(1) th:nth-child(1) {
   font-size: 18px !important;
-  max-width: 200px;
+  max-width: 100px;
   white-space: nowrap;
   z-index:2;
 }
