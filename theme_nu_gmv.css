@@ -48,43 +48,33 @@ tr.hover td.negative {
     background-color: rgb(235, 232, 245);
 }
 
-thead tr:nth-of-type(1) th {
-    border-bottom: 1px solid #ffffff;
-    background-color: #ffffff;
-    color: #451774ff;
-    position: sticky;
-    top: 0;
-}
-
 thead tr:nth-of-type(1) th:nth-child(2).merged,
 thead tr:nth-of-type(1) th:nth-child(3).merged,
-thead tr:nth-of-type(1) th:nth-child(3).merged {
+thead tr:nth-of-type(1) th:nth-child(4).merged {
     border-bottom: 1px solid #451774ff;
     border-left: 5px solid #ffffff;
     border-right: 5px solid #ffffff;
 }
 
-thead tr:nth-of-type(2) th {
-    border-bottom: 1px solid #451774ff;
-    background-color: #ffffff;
-    color: #451774ff;
-    position: sticky;
-    top: 21px;
-}
-
-thead tr:nth-of-type(2) th:nth-child(7),
+thead tr:nth-of-type(2) th:nth-child(1),
 thead tr:nth-of-type(2) th:nth-child(3),
-thead tr:nth-of-type(2) th:nth-child(11),
-tbody tr td:nth-child(3),
-tbody tr td:nth-child(7) {
+thead tr:nth-of-type(2) th:nth-child(5),
+thead tr:nth-of-type(2) th:nth-child(7),
+tbody tr th:nth-child(1),
+tbody tr th:nth-child(3),
+tbody tr th:nth-child(5),
+tbody tr th:nth-child(7) {
     border-right: 5px solid #ffffff;
 }
 
-thead tr:nth-of-type(2) th:nth-child(1),
+thead tr:nth-of-type(2) th:nth-child(2),
 thead tr:nth-of-type(2) th:nth-child(4),
+thead tr:nth-of-type(2) th:nth-child(6),
 thead tr:nth-of-type(2) th:nth-child(8),
-tbody tr td:nth-child(4),
-tbody tr td:nth-child(8) {
+tbody tr th:nth-child(2),
+tbody tr th:nth-child(4),
+tbody tr th:nth-child(6),
+tbody tr th:nth-child(8) {
     border-left: 5px solid #ffffff;
 }
 
