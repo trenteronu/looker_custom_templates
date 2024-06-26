@@ -64,7 +64,7 @@ thead tr:nth-of-type(1) th {
     top: 0;
 }
 
-thead tr:nth-of-type(1) th:nth-child(4).merged
+thead tr:nth-of-type(1) th:nth-child(2).merged
 {
     border-bottom: 1px solid #451774ff;
     border-left: 5px solid #ffffff;
