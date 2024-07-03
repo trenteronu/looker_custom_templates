@@ -18,8 +18,13 @@
     border-collapse: collapse;
     table-layout: auto;
 }
+
 thead tr th {
     color: #451774ff;
+}
+
+thead tr:nth-child(1) th {
+    border-bottom-color: #451774ff;
 }
 
 .focus {
