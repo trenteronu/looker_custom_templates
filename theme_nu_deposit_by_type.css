@@ -23,7 +23,7 @@ thead tr th {
     color: #451774ff;
 }
 
-thead tr:nth-child(1) th {
+thead tr:nth-child(1) {
     border-bottom-color: #451774ff;
 }
 
