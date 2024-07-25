@@ -103,6 +103,6 @@ tbody td.total:not(.subtotal) {
 }
 
 tbody tr td:nth-child(6),
-tbody tr td:nth-child(9) {
+tbody tr td:nth-child(10) {
     border-left: 5px solid #ffffff;
 }
