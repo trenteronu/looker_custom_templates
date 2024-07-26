@@ -126,25 +126,10 @@ tbody tr td:nth-child(14) {
 }
 
 
-/* Paddding of Total Assets and Total Liabilities and Equity rows*/
+/* Paddding of first line*/
 
-tbody tr:nth-child(25) td,
-tbody tr:nth-child(45) td {
-  padding-bottom: 20px;
-}
-
-tbody tr:nth-child(1) td,
-tbody tr:nth-child(53) td {
+tbody tr:nth-child(1) td {
   padding-top: 20px;
-}
-
-/* Bold to Total Assets, Total Liabilities, Total Equity and Total Liabilities and Equity rows*/
-
-tbody tr:nth-child(25),
-tbody tr:nth-child(45),
-tbody tr:nth-child(52),
-tbody tr:nth-child(53) {
-  font-weight: bold;
 }
 
 /* Padding Financial assets at fair value through profit or loss */
@@ -167,25 +152,66 @@ tbody tr:nth-child(10) td:nth-child(1),
 tbody tr:nth-child(11) td:nth-child(1),
 tbody tr:nth-child(12) td:nth-child(1),
 tbody tr:nth-child(13) td:nth-child(1),
-tbody tr:nth-child(14) td:nth-child(1),
-tbody tr:nth-child(15) td:nth-child(1) {
+tbody tr:nth-child(14) td:nth-child(1) {
   padding-left: 25px;
+}
+
+/* Paddding and bold of Total Assets */
+
+tbody tr:nth-child(22) {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(23) td {
+  padding-top: 20px;
 }
 
 /* Padding Financial liabilities at fair value through profit or loss */
 
-tbody tr:nth-child(27) td:nth-child(1),
-tbody tr:nth-child(28) td:nth-child(1),
-tbody tr:nth-child(29) td:nth-child(1) {
+tbody tr:nth-child(24) td:nth-child(1),
+tbody tr:nth-child(25) td:nth-child(1),
+tbody tr:nth-child(26) td:nth-child(1) {
   padding-left: 25px;
 }
 
 /* Padding Financial liabilities at amortized cost */
 
-tbody tr:nth-child(31) td:nth-child(1),
-tbody tr:nth-child(32) td:nth-child(1),
-tbody tr:nth-child(33) td:nth-child(1),
-tbody tr:nth-child(34) td:nth-child(1),
-tbody tr:nth-child(35) td:nth-child(1) {
+tbody tr:nth-child(28) td:nth-child(1),
+tbody tr:nth-child(29) td:nth-child(1),
+tbody tr:nth-child(30) td:nth-child(1) {
   padding-left: 25px;
+}
+
+/* Paddding and bold of Total Liabilities*/
+
+tbody tr:nth-child(38) {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(39) td {
+  padding-top: 20px;
+}
+
+/* Paddding of Equity rows*/
+
+tbody tr:nth-child(39) td {
+  padding-top: 20px;
+}
+
+tbody tr:nth-child(40) td,
+tbody tr:nth-child(41) td,
+tbody tr:nth-child(42) td,
+tbody tr:nth-child(43) td {
+  padding-left: 25px;
+}
+
+/* Padding and bold to Total Liability and Equity */
+
+tbody tr:nth-child(44),
+tbody tr:nth-child(45) {
+  font-weight: bold;
+}
+
+tbody tr:nth-child(45) td {
+  padding-top: 20px;
 }
