@@ -122,16 +122,19 @@ tbody tr td:nth-child(14) {
   border-left: 5px solid #ffffff;
 }
 
-/* Paddding of Total Revenue, Total cost of financial and transactional services provided, Gross Profit, Total Operating Expenses, Loss/Profit before Income Taxes, Total Income Taxes and Loss/Profit for the period */
+/* Paddding */
 
 tbody tr:nth-child(1) td,
 tbody tr:nth-child(9) td,
 tbody tr:nth-child(15) td,
-tbody tr:nth-child(19) td {
+tbody tr:nth-child(17) td {
   padding-top: 20px;
 }
 
-tbody tr:nth-child(15) td {
+tbody tr:nth-child(3) td,
+tbody tr:nth-child(7) td,
+tbody tr:nth-child(15) td,
+tbody tr:nth-child(19) td {
   padding-bottom: 20px;
 }
 
@@ -141,9 +144,9 @@ tbody tr:nth-child(3),
 tbody tr:nth-child(7),
 tbody tr:nth-child(8),
 tbody tr:nth-child(14),
-tbody tr:nth-child(15),
-tbody tr:nth-child(18),
-tbody tr:nth-child(19)
+tbody tr:nth-child(16),
+tbody tr:nth-child(19),
+tbody tr:nth-child(20)
 {
   font-weight: bold;
 }
