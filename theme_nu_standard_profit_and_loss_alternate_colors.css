@@ -123,6 +123,7 @@ tbody tr:nth-child(17) td {
 
 tbody tr:nth-child(3) td,
 tbody tr:nth-child(7) td,
+tbody tr:nth-child(15) td,
 tbody tr:nth-child(19) td {
   padding-bottom: 20px;
 }
