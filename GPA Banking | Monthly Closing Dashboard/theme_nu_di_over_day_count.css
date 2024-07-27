@@ -101,3 +101,11 @@ th.headerCell.merged {
 tbody td.total:not(.subtotal) {
     border-bottom: 1px solid #000000;
 }
+
+th {
+    text-align: center
+}
+
+td {
+    text-align: center
+}
