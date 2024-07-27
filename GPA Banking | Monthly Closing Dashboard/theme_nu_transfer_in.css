@@ -28,7 +28,7 @@ thead tr:nth-child(1) {
 }
 
 thead tr:nth-of-type(1) th:nth-child(1) {
-    font-size: 18px !important;
+    font-size: 14px !important;
     max-width: 30px;
     white-space: nowrap;
     z-index:2;
