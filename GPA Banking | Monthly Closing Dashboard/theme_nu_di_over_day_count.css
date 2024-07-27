@@ -103,9 +103,9 @@ tbody td.total:not(.subtotal) {
 }
 
 th {
-    text-align: center
+    text-align: center !important;
 }
 
 td {
-    text-align: center
+    text-align: center !important;
 }
