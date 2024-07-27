@@ -102,3 +102,7 @@ th {
 td {
     text-align: center !important;
 }
+
+tbody tr:nth-child(1) td {
+    padding-top: 20px;
+}
