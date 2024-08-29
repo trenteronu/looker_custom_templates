@@ -3,3 +3,7 @@
     border-collapse: separate;
     border-spacing: 0px;
 }
+
+.reportTable tbody tr:nth-child(even) {
+    background-color: rgb(235, 232, 245);
+}
