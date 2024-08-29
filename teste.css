@@ -60,6 +60,7 @@ thead tr:nth-of-type(1) th:nth-child(1) {
 
 thead tr th {
     color: #451774ff;
+    font-weight: bold;
 }
 
 thead tr:nth-of-type(1) th {
