@@ -1,0 +1,5 @@
+.reportTable {
+    font-family: arial, sans-serif;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
