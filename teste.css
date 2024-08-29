@@ -11,3 +11,8 @@
 thead tr th {
     color: #451774ff;
 }
+
+.rowCell {
+    vertical-align: middle;
+    padding: 3px;
+}
