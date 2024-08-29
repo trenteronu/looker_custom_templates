@@ -71,9 +71,9 @@ thead tr:nth-of-type(1) th {
     padding-top: 5px;
 }
 
-thead tr:nth-of-type(1) th:nth-chid(3).merged,
-thead tr:nth-of-type(1) th:nth-chid(4).merged,
-thead tr:nth-of-type(1) th:nth-chid(5).merged {
+thead tr:nth-of-type(1) th:nth-chid(3),
+thead tr:nth-of-type(1) th:nth-chid(4),
+thead tr:nth-of-type(1) th:nth-chid(5) {
     border-bottom: 1px solid #451774ff;
 }
 
