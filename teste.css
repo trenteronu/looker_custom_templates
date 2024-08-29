@@ -24,3 +24,7 @@ thead tr th {
     vertical-align: middle;
     padding: 3px;
 }
+
+.negative {
+    color: red;
+}
