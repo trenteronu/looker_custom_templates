@@ -75,14 +75,18 @@ thead tr:nth-of-type(1) th:nth-child(5).merged
 
 thead tr:nth-of-type(2) th:nth-child(5),
 thead tr:nth-of-type(2) th:nth-child(9),
+thead tr:nth-of-type(2) th:nth-child(13),
 tbody tr td:nth-child(5),
-tbody tr td:nth-child(9)
+tbody tr td:nth-child(9),
+tbody tr td:nth-child(13)
 {
     border-right: 5px solid #ffffff;
 }
 
+thead tr:nth-of-type(2) th:nth-child(4),
 thead tr:nth-of-type(2) th:nth-child(6),
 thead tr:nth-of-type(2) th:nth-child(10),
+tbody tr td:nth-child(4),
 tbody tr td:nth-child(6),
 tbody tr td:nth-child(10)
 {
