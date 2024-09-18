@@ -145,6 +145,6 @@ tbody tr:nth-child(17) td:nth-child(1) {
   padding-left: 25px;
 }
 
-tbody tr:nth-child(20) td {
+tbody tr:nth-of-type(20) td {
   font-weight: bold;
 }
