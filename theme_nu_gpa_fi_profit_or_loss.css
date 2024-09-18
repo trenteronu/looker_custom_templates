@@ -130,6 +130,6 @@ tbody tr:nth-child(1) td {
 tbody tr:nth-of-type(13) td,
 tbody tr:nth-of-type(21) td,
 tbody tr:nth-of-type(22) td {
-  padding-top: 20px;
+  padding-bottom: 20px;
   font-weight: bold;
 }
