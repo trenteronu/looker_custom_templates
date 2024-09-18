@@ -127,6 +127,6 @@ tbody tr:nth-child(12) td:nth-child(1),
 tbody tr:nth-child(13) td:nth-child(1),
 tbody tr:nth-child(15) td:nth-child(1),
 tbody tr:nth-child(16) td:nth-child(1),
-tbody tr:nth-child(17) td:nth-child(1),{
+tbody tr:nth-child(17) td:nth-child(1) {
   padding-left: 25px;
 }
