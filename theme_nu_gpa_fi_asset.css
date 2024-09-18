@@ -36,11 +36,10 @@ tr.hover td.negative {
 }
 
 .reportTable {
-  font-family: arial, sans-serif;
+  font-family: arial;
   border-collapse: separate;
   border-spacing: 0px;
 }
-
 
 .reportTable tbody tr:nth-child(even) {
   background-color: rgb(235, 232, 245);
@@ -64,14 +63,6 @@ thead tr:nth-of-type(2) th {
   color: #451774ff;
   position: sticky;
   top: 26px;
-}
-
-thead tr:nth-of-type(3) th {
-  border-bottom: 1px solid #451774ff;
-  background-color: #ffffff;
-  color: #451774ff;
-  position: sticky;
-  top: 46px;
 }
 
 th.headerCell {
@@ -124,9 +115,19 @@ tbody tr:nth-child(1) td {
 
 /* Padding Financial assets at fair value through profit or loss */
 
+tbody tr:nth-child(2) td:nth-child(1),
 tbody tr:nth-child(3) td:nth-child(1),
 tbody tr:nth-child(4) td:nth-child(1),
-tbody tr:nth-child(5) td:nth-child(1) {
+tbody tr:nth-child(5) td:nth-child(1),
+tbody tr:nth-child(7) td:nth-child(1),
+tbody tr:nth-child(8) td:nth-child(1),
+tbody tr:nth-child(9) td:nth-child(1),
+tbody tr:nth-child(11) td:nth-child(1),
+tbody tr:nth-child(12) td:nth-child(1),
+tbody tr:nth-child(13) td:nth-child(1),
+tbody tr:nth-child(15) td:nth-child(1),
+tbody tr:nth-child(16) td:nth-child(1),
+tbody tr:nth-child(17) td:nth-child(1),{
   padding-left: 25px;
 }
 
