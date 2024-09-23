@@ -124,7 +124,7 @@ tbody td.total:not(.subtotal) {
 /* Paddding of first line*/
 
 tbody tr:nth-child(1) td,
-tbody tr:nth-of-type(22) td {
+tbody tr:nth-of-type(23) td {
   padding-top: 20px;
 }
 
@@ -133,7 +133,7 @@ tbody tr:nth-of-type(13) td {
   font-weight: bold;
 }
 
-tbody tr:nth-of-type(23) td,
-tbody tr:nth-of-type(22) td {
+tbody tr:nth-of-type(22) td,
+tbody tr:nth-of-type(23) td {
   font-weight: bold;
 }
