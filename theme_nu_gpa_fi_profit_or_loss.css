@@ -127,12 +127,12 @@ tbody tr:nth-child(1) td {
   padding-top: 20px;
 }
 
-tbody tr:nth-of-type(13) td,
-tbody tr:nth-of-type(21) td {
+tbody tr:nth-of-type(13) td {
   padding-bottom: 20px;
   font-weight: bold;
 }
 
+tbody tr:nth-of-type(23) td,
 tbody tr:nth-of-type(22) td {
   font-weight: bold;
 }
