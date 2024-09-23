@@ -123,7 +123,8 @@ tbody td.total:not(.subtotal) {
 
 /* Paddding of first line*/
 
-tbody tr:nth-child(1) td {
+tbody tr:nth-child(1) td,
+tbody tr:nth-of-type(22) td {
   padding-top: 20px;
 }
 
