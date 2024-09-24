@@ -150,14 +150,14 @@ tbody tr:nth-child(14) td:nth-child(1) {
 
 tbody tr:nth-child(23) {
   font-weight: bold;
-   padding-bottom: 20px;
+  padding-bottom: 20px;
 }
 
 /* Padding Financial liabilities at fair value through profit or loss */
 
-tbody tr:nth-child(24) td:nth-child(1),
 tbody tr:nth-child(25) td:nth-child(1),
-tbody tr:nth-child(26) td:nth-child(1) {
+tbody tr:nth-child(26) td:nth-child(1),
+tbody tr:nth-child(27) td:nth-child(1) {
   padding-left: 25px;
 }
 
