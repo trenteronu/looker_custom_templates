@@ -148,12 +148,9 @@ tbody tr:nth-child(14) td:nth-child(1) {
 
 /* Paddding and bold of Total Assets */
 
-tbody tr:nth-child(22) {
+tbody tr:nth-child(23) {
   font-weight: bold;
-}
-
-tbody tr:nth-child(23) td {
-  padding-top: 20px;
+   padding-bottom: 20px;
 }
 
 /* Padding Financial liabilities at fair value through profit or loss */
