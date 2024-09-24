@@ -173,7 +173,7 @@ tbody tr:nth-child(31) td:nth-child(1) {
 
 tbody tr:nth-child(41) td {
   font-weight: bold;
-  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* Paddding of Equity rows*/
