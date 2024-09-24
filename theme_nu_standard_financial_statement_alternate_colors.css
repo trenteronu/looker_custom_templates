@@ -163,42 +163,38 @@ tbody tr:nth-child(27) td:nth-child(1) {
 
 /* Padding Financial liabilities at amortized cost */
 
-tbody tr:nth-child(28) td:nth-child(1),
 tbody tr:nth-child(29) td:nth-child(1),
-tbody tr:nth-child(30) td:nth-child(1) {
+tbody tr:nth-child(30) td:nth-child(1),
+tbody tr:nth-child(31) td:nth-child(1) {
   padding-left: 25px;
 }
 
 /* Paddding and bold of Total Liabilities*/
 
-tbody tr:nth-child(38) {
+tbody tr:nth-child(39) {
   font-weight: bold;
-}
-
-tbody tr:nth-child(39) td {
-  padding-top: 20px;
 }
 
 /* Paddding of Equity rows*/
 
-tbody tr:nth-child(39) td {
+tbody tr:nth-child(40) td {
   padding-top: 20px;
 }
 
-tbody tr:nth-child(40) td,
 tbody tr:nth-child(41) td,
 tbody tr:nth-child(42) td,
-tbody tr:nth-child(43) td {
+tbody tr:nth-child(43) td,
+tbody tr:nth-child(44) td {
   padding-left: 25px;
 }
 
 /* Padding and bold to Total Liability and Equity */
 
-tbody tr:nth-child(44),
-tbody tr:nth-child(45) {
+tbody tr:nth-child(45),
+tbody tr:nth-child(46) {
   font-weight: bold;
 }
 
-tbody tr:nth-child(45) td {
+tbody tr:nth-child(46) td {
   padding-top: 20px;
 }
