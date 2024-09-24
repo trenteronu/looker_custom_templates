@@ -148,7 +148,7 @@ tbody tr:nth-child(14) td:nth-child(1) {
 
 /* Paddding and bold of Total Assets */
 
-tbody tr:nth-child(23) {
+tbody tr:nth-child(23) td {
   font-weight: bold;
   padding-bottom: 20px;
 }
