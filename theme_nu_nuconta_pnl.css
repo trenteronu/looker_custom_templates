@@ -109,6 +109,14 @@ thead tr:nth-of-type(1) th:nth-child(1) {
 tbody tr:nth-of-type(10) td,
 tbody tr:nth-of-type(16) td,
 tbody tr:nth-of-type(20) td,
-tbody tr:nth-of-type(24) td {
+tbody tr:nth-of-type(24) td,
+tbody tr:nth-of-type(28) td {
   font-weight: bold;
+}
+
+tbody tr:nth-of-type(11) td,
+tbody tr:nth-of-type(17) td,
+tbody tr:nth-of-type(21) td,
+tbody tr:nth-of-type(225) td {
+  padding-top: 20px;
 }
