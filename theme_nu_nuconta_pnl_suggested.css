@@ -149,9 +149,6 @@ tbody tr:nth-of-type(34) td {
   font-weight: bold;
 }
 
-/* tbody tr:nth-of-type(11) td,
-tbody tr:nth-of-type(17) td,
-tbody tr:nth-of-type(21) td,
-tbody tr:nth-of-type(25) td {
+tbody tr:nth-of-type(19) td {
   padding-top: 20px;
-} */
+}
