@@ -129,16 +129,17 @@ tbody tr:nth-of-type(31) td:nth-child(1) {
   padding-left: 20px;
 }
 
-/* 
-tbody tr:nth-of-type(10) td,
-tbody tr:nth-of-type(16) td,
-tbody tr:nth-of-type(20) td,
-tbody tr:nth-of-type(24) td,
-tbody tr:nth-of-type(28) td {
+
+tbody tr:nth-of-type(13) td,
+tbody tr:nth-of-type(14) td,
+tbody tr:nth-of-type(19) td,
+tbody tr:nth-of-type(32) td,
+tbody tr:nth-of-type(33) td,
+tbody tr:nth-of-type(34) td {
   font-weight: bold;
 }
 
-tbody tr:nth-of-type(11) td,
+/* tbody tr:nth-of-type(11) td,
 tbody tr:nth-of-type(17) td,
 tbody tr:nth-of-type(21) td,
 tbody tr:nth-of-type(25) td {
