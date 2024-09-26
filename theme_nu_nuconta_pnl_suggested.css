@@ -119,17 +119,17 @@ tbody tr:nth-of-type(9) td:nth-child(1),
 tbody tr:nth-of-type(10) td:nth-child(1),
 tbody tr:nth-of-type(11) td:nth-child(1),
 tbody tr:nth-of-type(12) td:nth-child(1),
-tbody tr:nth-of-type(16) td:nth-child(1),
 tbody tr:nth-of-type(17) td:nth-child(1),
 tbody tr:nth-of-type(18) td:nth-child(1),
-tbody tr:nth-of-type(21) td:nth-child(1),
+tbody tr:nth-of-type(19) td:nth-child(1),
 tbody tr:nth-of-type(22) td:nth-child(1),
-tbody tr:nth-of-type(24) td:nth-child(1),
+tbody tr:nth-of-type(23) td:nth-child(1),
 tbody tr:nth-of-type(25) td:nth-child(1),
-tbody tr:nth-of-type(27) td:nth-child(1),
-tbody tr:nth-of-type(29) td:nth-child(1),
+tbody tr:nth-of-type(26) td:nth-child(1),
+tbody tr:nth-of-type(28) td:nth-child(1),
 tbody tr:nth-of-type(30) td:nth-child(1),
-tbody tr:nth-of-type(31) td:nth-child(1) {
+tbody tr:nth-of-type(31) td:nth-child(1),
+tbody tr:nth-of-type(32) td:nth-child(1) {
   padding-left: 20px;
 }
 
