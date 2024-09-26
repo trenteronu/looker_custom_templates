@@ -152,20 +152,20 @@ tbody tr:nth-of-type(32) td:nth-child(1) {
 
 tbody tr:nth-of-type(14) td,
 tbody tr:nth-of-type(15) td,
-tbody tr:nth-of-type(19) td,
-tbody tr:nth-of-type(32) td,
+tbody tr:nth-of-type(20) td,
 tbody tr:nth-of-type(33) td,
-tbody tr:nth-of-type(34) td {
+tbody tr:nth-of-type(34) td,
+tbody tr:nth-of-type(35) td {
   font-weight: bold;
 }
 
 tbody tr:nth-of-type(15) td,
-tbody tr:nth-of-type(33) td {
+tbody tr:nth-of-type(34) td {
   padding-top: 20px;
 }
 
 tbody tr:nth-of-type(15) td,
-tbody tr:nth-of-type(19) td,
-tbody tr:nth-of-type(33) td {
+tbody tr:nth-of-type(20) td,
+tbody tr:nth-of-type(34) td {
   padding-bottom: 20px;
 }
