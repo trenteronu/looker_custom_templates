@@ -125,12 +125,11 @@ tbody tr:nth-of-type(14) td {
 }
 
 tbody tr:nth-of-type(9) td,
-tbody tr:nth-of-type(33) td {
+tbody tr:nth-of-type(13) td {
   padding-top: 20px;
 }
 
 tbody tr:nth-of-type(9) td,
-tbody tr:nth-of-type(19) td,
-tbody tr:nth-of-type(33) td {
+tbody tr:nth-of-type(13) td {
   padding-bottom: 20px;
 }
