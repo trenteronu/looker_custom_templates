@@ -140,7 +140,9 @@ tbody tr:nth-of-type(1) td,
 tbody tr:nth-of-type(5) td,
 tbody tr:nth-of-type(9) td,
 tbody tr:nth-of-type(13) td,
-tbody tr:nth-of-type(21) td {
+tbody tr:nth-of-type(21) td,
+tbody tr:nth-of-type(25) td,
+tbody tr:nth-of-type(27) td {
   padding-top: 20px;
 }
 
